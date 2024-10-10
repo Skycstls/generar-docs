@@ -16,7 +16,7 @@ done
 # Crear el PDF del informe completo
 echo "Creando PDF de todo el informe"
 #pdftk 1_ejercicio.pdf 2_ejercicio.pdf 3_ejercicio.pdf cat output informe.pdf
-pdftk 1_ejercicio.pdf 2_ejercicio.pdf cat output informe.pdf
+pdftk intro.pdf ejemplo1.pdf ejemplo2.pdf cat output informe.pdf
 
 # Eliminar PDFs temporales
 for capitulo in "${capitulos[@]}"; do
